@@ -14,10 +14,10 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React Calculator</title>
+    <title>React Application</title>
   </head>
   <body>
-    <div id="calculator"></div>
+    <div id="app"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -29,15 +29,4 @@
       To create a production bundle, use `npm run build`.
     -->
   </body>
-  <script>
-// factorial tail recursion
-function factorial( x, current = 1 ) {
-  if( x === 1 ) {
-    return current; // base case
-  }
-  else {
-    return factorial( x -1, current * x );
-  }
-}
-  </script>
 </html>
